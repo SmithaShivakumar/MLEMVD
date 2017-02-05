@@ -1,0 +1,77 @@
+Teacking the Minimization using NLopt version 2.4.2 
+
+NLopt solver status: 5 ( NLOPT_MAXEVAL_REACHED: Optimization stopped because maxeval 
+(above) was reached. )
+
+Number of Iterations....: 50 
+Termination conditions:  maxeval: 50    xtol_rel: 1e-08 
+Number of inequality constraints:  1 
+Number of equality constraints:    0 
+
+
+U1 :
+
+Current value of objective function:  -18.4514981540829 
+Current value of controls: 0.2050154 -0.7534541 1e-08 0.3911428 0.02665443
+
+
+U2:
+
+Current value of objective function:  -2.13612909989274 
+Current value of controls: 0.1044439 -0.7284301 0.1012945 0.4065372 0.2842239
+
+
+U3:
+rho_0 > 0 - to avoid inf values
+
+
+U4:
+
+Current value of objective function:  -2.2234316186792 
+Current value of controls: 0.09843378 -0.7095807 0.2040415 0.3344791 0.3699396
+
+
+U5:
+
+
+U6:
+
+Current value of objective function:  0.415779676818655 
+Current value of controls: 0.1587129 -0.8770307 0.4264432 0.04796657 0.2095149
+
+
+U7:
+
+Current value of objective function:  -20.2664567542068 
+Current value of controls: 0.2310881 -0.6910925 1e-08 0.2732961 0.02377205
+
+
+U8:
+
+theta = 4
+6th param - new_rho>1
+
+
+U10:
+
+Current value of objective function:  -2.09834272143467 
+Current value of controls: 0.1723498 -0.6701942 0.4638182 0.01224544 0.09297394
+
+
+U11:
+
+Current value of objective function:  -2.0895248153907 
+Current value of controls: 0.1503389 -0.630979 0.3457038 0.03571086 0.1581193
+
+
+U12:
+
+Current value of objective function:  -2.24478986448203 
+Current value of controls: 0.07568148 -0.0206611 0.2003863 0.1781999 0.1500565
+
+
+
+
+
+
+
