@@ -1,4 +1,4 @@
-Teacking the Minimization using NLopt version 2.4.2 
+Tracking the Minimization using NLopt version 2.4.2 
 
 NLopt solver status: 5 ( NLOPT_MAXEVAL_REACHED: Optimization stopped because maxeval 
 (above) was reached. )
