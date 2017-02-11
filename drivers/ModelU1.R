@@ -1,4 +1,7 @@
 
+source('C:\\Users\\smitha\\Documents\\R\\MLEMVD-master\\MLEMVD-master\\HestonFourierCosine.R')
+require(nloptr)
+require(pracma)
 
 ModelHeston<- function(x,x0,del,param,args){
   
@@ -40,9 +43,9 @@ ModelHeston<- function(x,x0,del,param,args){
   
   
   
-  a        <- param[3]  # theta
+  a        <- param[1]  # theta
   b        <- param[2]  # kappa
-  g        <- param[4]  # sigma
+  g        <- param[3]  # sigma
   
   
   param_prime <- c(a,b,g)
@@ -51,7 +54,8 @@ ModelHeston<- function(x,x0,del,param,args){
   return(output)
 }
 
-ModelU1 <- function(x,x0,del,param){
+ModelU1 <- function(x,x0,del,param,args){
+  
   a <- param[1] 
   b <- param[2] 
   sigma <- param[3] 
@@ -71,4 +75,5 @@ ModelU1 <- function(x,x0,del,param){
   
 }
 
-# ModelU1(3,4,1/52,c(0.3,0.4,0.5))
+# ModelHeston(3,4,1/52,c(0.3,0.4,0.5))
+
